@@ -1,7 +1,7 @@
 public void setup()
 {
-  background(212, 209, 255);
-  size(800, 800);
+  background(255, 204, 255);
+  size(700, 700);
 }
 public void draw()
 {
