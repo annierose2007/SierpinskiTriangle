@@ -16,7 +16,7 @@ public void sierpinski(int x, int y, int len)
     sierpinski(x, y, len/2);
     fill(230, 170, ((int)Math.random()*255)+175);
     sierpinski(x+len/2, y, len/2);
-    fill(200, 170, ((int)Math.random()*255)+200);
+    fill(255, 153, 204);
     sierpinski(x+len/4, y-len/2, len/2);
   }
 }
