@@ -1,15 +1,11 @@
 public void setup()
 {
   background(212, 209, 255);
-  size(700, 700);
+  size(800, 800);
 }
 public void draw()
 {
   sierpinski(25, 675, 650);
-}
-public void mousePressed()//optional
-{  
-  //sierpinski(25, 675, (int)(Math.random()*590));
 }
 public void sierpinski(int x, int y, int len) 
 {
