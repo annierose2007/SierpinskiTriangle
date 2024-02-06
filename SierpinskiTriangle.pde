@@ -9,7 +9,7 @@ public void draw()
 }
 public void sierpinski(int x, int y, int len) 
 {
-  if (len<30) {
+  if (len<50) {
     triangle(x, y, x+len/2, y-len, x+len, y);
   } else {
     stroke(255,50,50);
